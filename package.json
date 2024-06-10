@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon -V",
-    "test": "cross-env NODE_ENV=test jest --detectOpenHandles"
+    "test": "jest --detectOpenHandles",
+    "coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -17,9 +18,11 @@
     "express": "^4.19.2",
     "express-validator": "^7.1.0",
     "helmet": "^7.1.0",
+    "jest": "^29.7.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "supertest": "^7.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.2"
